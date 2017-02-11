@@ -19,6 +19,7 @@ namespace PatrinomioAndroidXamarin
 
             EditText txtResult = FindViewById<EditText>(Resource.Id.txtresult);
             ImageView imgFlag = FindViewById<ImageView>(Resource.Id.imgflag);
+            Button btnExit = FindViewById<Button>(Resource.Id.btnexit);
 
             try
             {
@@ -30,6 +31,11 @@ namespace PatrinomioAndroidXamarin
                 Toast.MakeText(this, ex.Message, ToastLength.Short).Show();
                 throw;
             }
+
+            btnExit.Click += delegate
+            {
+                Process.KillProcess(Process.MyPid());
+            };
         }
     }
 }
