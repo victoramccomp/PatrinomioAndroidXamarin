@@ -6,7 +6,7 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="PatrinomioAndroidXamarin" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:label="CalcStockCapital" android:name="md5c59514a36ac11bc6f2ebc8924e83dc20.CalcStockCapital" />
-    <activity android:icon="@drawable/icon" android:label="PatrinomioAndroidXamarin" android:name="md5c59514a36ac11bc6f2ebc8924e83dc20.MainActivity">
+    <activity android:icon="@drawable/usaicon" android:name="md5c59514a36ac11bc6f2ebc8924e83dc20.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

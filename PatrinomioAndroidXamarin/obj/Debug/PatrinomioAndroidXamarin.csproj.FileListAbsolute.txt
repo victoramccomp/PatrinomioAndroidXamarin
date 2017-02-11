@@ -49,7 +49,6 @@ C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\ob
 C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\obj\Debug\res\layout\calcstockcapital.xml
 C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\obj\Debug\res\layout\main.xml
 C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\obj\Debug\res\values\strings.xml
-C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\obj\Debug\res\drawable\icon.png
 C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\obj\Debug\res\drawable\usa.jpg
 C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\obj\Debug\R.cs.flag
 C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\obj\Debug\uploadflags.txt
@@ -77,5 +76,7 @@ C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\ob
 C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\obj\Debug\res\drawable\blackbackground.jpg
+C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\obj\Debug\res\drawable\usaicon.png
 C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\obj\Debug\PatrinomioAndroidXamarin.dll.mdb
 C:\Users\victo\Source\Repos\PatrinomioAndroidXamarin\PatrinomioAndroidXamarin\bin\Debug\PatrinomioAndroidXamarin.dll.mdb

@@ -3,55 +3,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp">
-  <TextView
-      android:text="Calc Stock Capital"
-      android:layout_width="300dp"
-      android:layout_height="80dp"
-      android:gravity="center" />
-  <TextView
-      android:text="Incoming"
-      android:layout_width="80dp"
-      android:layout_height="50dp"
-      android:layout_marginTop="80dp"
-      android:layout_marginRight="80dp"
-      android:gravity="center" />
-  <EditText
-      android:text=""
-      android:numeric="integer"
-      android:inputType="number"
-      android:background="#000057"
-      android:id="@+id/txtincoming"
-      android:layout_width="130dp"
-      android:layout_height="50dp"
-      android:layout_marginTop="80dp"
-      android:layout_alignParentRight="true"
-      android:gravity="center" />
-  <TextView
-      android:text="Expenditures"
-      android:layout_width="110dp"
-      android:layout_height="50dp"
-      android:layout_marginTop="180dp"
-      android:layout_marginRight="80dp"
-      android:gravity="center" />
-  <EditText
+    android:paddingRight="16dp"
+    android:background="@drawable/blackbackground">
+    <TextView
+        android:text="Calc Stock Capital"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:gravity="center" />
+    <TextView
+        android:text="Incoming"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center" />
+    <EditText
         android:text=""
         android:numeric="integer"
         android:inputType="number"
-        android:background="#000057"
+        android:id="@+id/txtincoming"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center" />
+    <TextView
+        android:text="Expenditures"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center" />
+    <EditText
+        android:text=""
+        android:numeric="integer"
+        android:inputType="number"
         android:id="@+id/txtexpenditures"
         android:layout_width="130dp"
         android:layout_height="50dp"
         android:layout_marginTop="180dp"
         android:layout_alignParentRight="true"
         android:gravity="center" />
-  <Button
-      android:text="Calc"
-      android:id="@+id/btncalc"
-      android:background="#00FF00"
-      android:layout_width="130dp"
-      android:layout_height="60dp"
-      android:layout_marginTop="280dp"
-      android:layout_centerHorizontal="true"
-      android:gravity="center" />
+    <Button
+        android:text="Calc"
+        android:id="@+id/btncalc"
+        android:background="#000000"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
 </RelativeLayout>

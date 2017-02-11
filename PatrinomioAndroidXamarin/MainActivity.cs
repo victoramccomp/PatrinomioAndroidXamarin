@@ -5,7 +5,7 @@ using Android.Content;
 
 namespace PatrinomioAndroidXamarin
 {
-    [Activity(Label = "PatrinomioAndroidXamarin", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(MainLauncher = true, Icon = "@drawable/usaicon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -23,8 +23,8 @@ namespace PatrinomioAndroidXamarin
             {
                 try
                 {
-                    incoming = double.Parse(txtIncoming.Text);
-                    expenditures = double.Parse(txtExpenditures.Text);
+                    incoming = double.Parse(txtIncoming.Text == "" ? "0" : txtIncoming.Text);
+                    expenditures = double.Parse(txtExpenditures.Text == "" ? "0" : txtExpenditures.Text);
                     result = expenditures - incoming;
                     Calc(result);
                 }
